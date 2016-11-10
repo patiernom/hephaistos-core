@@ -1,7 +1,7 @@
 {
   "name": "hephaistos-core",
   "version": "0.1.0",
-  "description": "Server core Glue composition for Hapi.js",
+  "description": "Hapi.js server core Glue composition.",
   "keywords": [
     "hapi",
     "npm",
