@@ -1,0 +1,13 @@
+{
+  "error": {
+    "composition": "MANIFEST composition has been failed {{stackTrace}}",
+    "startupFailed": "Unable to start the instance"
+  },
+  "notice": {
+    "loaded": "Loading {{manifestName}} MANIFEST for this server",
+    "listening": "Servers is listening for {{host}} on port {{port}}"
+  },
+  "some": {
+    "sentence": "this is #b{{name}}#/b something to #h1{{name}}#/h1"
+  }
+}

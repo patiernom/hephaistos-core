@@ -1,0 +1,9 @@
+#webstorm ignore
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+*.iws
+*.ipr
+node_modules/
+tests/coverage/
+/*.log
