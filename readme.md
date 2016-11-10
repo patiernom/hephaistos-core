@@ -11,7 +11,7 @@ Hapi.js server core Glue composition.
 
 ## Installation
 
-The easiest way is to keep `hephaistos-core` as a devDependency in your `package.json`.
+The easiest way is to keep `hephaistos-core` as a dependency in your `package.json`.
 ```json
 {
   "dependencies": {
@@ -27,21 +27,21 @@ npm install hephaistos-core --save
 
 ## Example
 ```javascript
-var poseidonCore = require('poseidon-core');
+var hephaistosCore = require('hephaistos-core');
 var options = {
     relativeTo: '../my/source/dir'
 }
-var manifestFilePath = 'path/to/config.json';
+var pathOfManifest = 'path/to/config.json';
 
 module.exports = (function(){
-    poseidonCore(manifestFilePath, options).start();
+    hephaistosCore(pathOfManifest, options).start();
 })();
 ```
 
 ## Usage
-`poseidon-core` is a function that takes the following arguments:
+`hephaistos-core` is a function that takes the following arguments:
 
-* manifestFilePath - (required) the of Hapi.js manifest file.
+* pathOfManifest - (required) the of Hapi.js manifest file.
 * options - (required) an object that contain options for Hapi.js Glue.
 
 
