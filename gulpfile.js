@@ -6,7 +6,7 @@
 var gulp   = require('gulp'),
     plugins = require('gulp-load-plugins')(),
     paths = {
-        lint: ['./gulpfile.js', './index.js'],
+        lint: [], //'./gulpfile.js', './index.js'
         tests: ['./tests/*.js', '!./tests/{temp,temp/**}']
     };
 
